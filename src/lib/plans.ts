@@ -72,7 +72,7 @@ export const PLANS: Record<PlanId, PlanDefinition> = {
     name: "VIVA Plus",
     tagline: "Mais mensagens, respostas mais longas e arquivos maiores.",
     limits: {
-      dailyMessages: 150,
+      dailyMessages: 50,
       dailyGenerations: 60,
       dailyFiles: 30,
       maxFileBytes: 15 * MB,
@@ -91,7 +91,7 @@ export const PLANS: Record<PlanId, PlanDefinition> = {
     name: "VIVA Família",
     tagline: "Os limites do Plus para até 5 pessoas, cada uma com seus dados privados.",
     limits: {
-      dailyMessages: 150,
+      dailyMessages: 50,
       dailyGenerations: 60,
       dailyFiles: 30,
       maxFileBytes: 15 * MB,
